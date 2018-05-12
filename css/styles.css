@@ -69,5 +69,34 @@ strong{
   color: #FFCD2F;
 }
 
-.red-section img{
+.red-section ul{
+  list-style: none;
+}
+
+.red-section li{
+  padding-bottom: 15px;
+}
+
+.last-section strong{
+  font-size: 1.4rem;
+}
+
+.free-ship-banner{
+  background-color: #495E40;
+}
+
+.free-ship-center{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+}
+
+.free-ship-text{
+  display: inline-block;
+}
+
+#free{
+  color: #F9D63F;
+  margin-top: -200px;
+  display: absolute;
+  top: 0;
 }
