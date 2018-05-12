@@ -22,3 +22,15 @@ body,html{
   color: #C32430;
   background: linear-gradient(to right, rgba(196, 154, 108, 0) 0, #D2CAC7 15%, #D2CAC7 85%, rgba(196, 154, 108, 0));
 }
+
+.chocoImageBanner{
+  background: linear-gradient(to right, rgba(196, 154, 108, 0) 0, #c39b7c 25%, #c39b7c 75%, rgba(196, 154, 108, 0));
+}
+
+.section1 ul{
+  list-style: none;
+}
+
+.section1 ul li:before{
+  content: "\2714\0020";
+}
