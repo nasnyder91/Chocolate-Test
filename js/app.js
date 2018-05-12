@@ -16,7 +16,6 @@ function resizeFreeShipText(){
     let lineWidth = line.clientWidth;
     lineWidth -= parseFloat(lineStyle.paddingLeft) + parseFloat(lineStyle.paddingRight);
     let newFontSize = (divWidth/lineWidth);
-    console.log(divWidth, lineWidth);
     line.style.fontSize = newFontSize + 'rem';
   });
 }

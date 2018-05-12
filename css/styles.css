@@ -77,6 +77,17 @@ strong{
   padding-bottom: 15px;
 }
 
+.last-section{
+  background-image: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0) 100%),url(../img/TransparentArrowBkgd.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 1250px 832px;
+}
+
+.last-section .container:first-child{
+  background-color: rgba(255, 255, 255, 0.68);
+}
+
 .last-section strong{
   font-size: 1.4rem;
 }
@@ -97,4 +108,9 @@ strong{
 
 #free{
   color: #F9D63F;
+}
+
+#arrow{
+  min-width: 100%;
+  max-width: 100%;
 }
