@@ -52,6 +52,22 @@ strong{
 
 .brownbar-section{
   background-color: #3d1c0f;
-  box-shadow: -40px 40px white inset, 40px 0px white inset;
+  box-shadow: -40px 20px white inset, 40px 0 white inset;
   color: white;
+}
+
+.red-section{
+  background-color: #A41F25;
+  background-image: url(../img/Gears_15.jpg);
+  background-repeat: no-repeat;
+  background-size: 200px 338px;
+  background-position: 100% -10%;
+  color: white;
+}
+
+.red-section h2{
+  color: #FFCD2F;
+}
+
+.red-section img{
 }
