@@ -1,0 +1,12 @@
+{
+  "name": "agoratest",
+  "version": "1.0.0",
+  "description": "Agora Test Site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Snyder",
+  "license": "MIT",
+  "dependencies": {}
+}
