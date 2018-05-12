@@ -114,3 +114,19 @@ strong{
   min-width: 100%;
   max-width: 100%;
 }
+
+#addtocart-button{
+  background-color: #E47E25;
+  border-width: medium !important;
+  max-width: 75%;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.last-section a{
+  color: #2BB673;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#registered{
+  color: white;
+}
