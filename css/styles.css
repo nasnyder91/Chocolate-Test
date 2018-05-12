@@ -92,11 +92,9 @@ strong{
 
 .free-ship-text{
   display: inline-block;
+  line-height: 80%;
 }
 
 #free{
   color: #F9D63F;
-  margin-top: -200px;
-  display: absolute;
-  top: 0;
 }
