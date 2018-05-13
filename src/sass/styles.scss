@@ -313,13 +313,13 @@ strong{
   }
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1400px){
   .headline{
     padding-bottom: 220px !important;
   }
 
   .parallax-section{
-    padding: 100px 0 100px 80px !important;
+    padding: 100px 0 100px 250px !important;
     background-image: linear-gradient(rgba(157, 157, 157, 0.08), rgba(157, 157, 157, 0.08)),url(../img/ParallaxOne_5.jpg);
     background-position: center bottom;
     background-attachment: fixed;
