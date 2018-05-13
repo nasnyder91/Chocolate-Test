@@ -5,7 +5,7 @@ body, html {
   padding: 0px;
   overflow-x: hidden;
   font-size: 1rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
 strong {
@@ -19,7 +19,7 @@ strong {
   color: white; }
 
 .headline-banner {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   color: #C32430;
   background: linear-gradient(to right, rgba(196, 154, 108, 0) 0, #D2CAC7 15%, #D2CAC7 85%, rgba(196, 154, 108, 0)); }
 
@@ -86,7 +86,7 @@ strong {
   padding-right: 30px; }
 
 .free-ship-center {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   color: white; }
 
 .free-ship-text {
@@ -105,7 +105,7 @@ strong {
   border-width: medium !important;
   width: 75%;
   max-width: 75%;
-  font-family: 'Open Sans Condensed', sans-serif; }
+  font-family: "Open Sans Condensed", sans-serif; }
 
 .last-section .container {
   padding: 0; }
@@ -116,10 +116,112 @@ strong {
 
 .last-section a {
   color: #2BB673;
-  font-family: 'Open Sans Condensed', sans-serif; }
+  font-family: "Open Sans Condensed", sans-serif; }
 
 #registered {
   color: white; }
 
 .shadowed-text {
   text-shadow: 2px 2px 5px black; }
+
+@media only screen and (min-width: 576px) {
+  body {
+    font-size: 1.5rem !important; }
+  .headline {
+    background-size: 100% auto !important;
+    background-position: 50% 70% !important; }
+  .headline h2 {
+    font-size: 4rem !important; }
+  .headline h6 {
+    font-size: 1.8rem !important; } }
+
+@media only screen and (min-width: 768px) {
+  .headline h6 {
+    font-size: 2rem !important; }
+  .section1 p:first-child {
+    text-align: left; }
+  .afterChocoBanner {
+    text-align: left; }
+  .brownbar-section {
+    box-shadow: -80px 60px white inset, 80px 1px white inset !important; }
+  .between-brown-and-red * {
+    text-align: left; }
+  .red-section {
+    background-size: auto auto !important; }
+  .red-section h2 {
+    font-size: 2.3rem !important; }
+  #guaranteeLine {
+    text-align: left !important;
+    font-size: 2.2rem; } }
+
+@media only screen and (min-width: 992px) {
+  .section1 p:first-child {
+    margin-top: 20px;
+    margin-bottom: 20px !important; }
+  .chocoImageBanner {
+    padding-top: 20px !important; }
+  .parallax-section {
+    background-position: 0 -60px !important; }
+  .brownbar-section {
+    box-shadow: -80px -40px white inset, 0px 40px white inset !important; }
+  .brownbar-text {
+    padding-top: 40px !important; }
+  #delivery-man {
+    float: right;
+    width: 40%; }
+  .last-section {
+    background-image: linear-gradient(to bottom, white 50%, rgba(255, 255, 255, 0) 100%), url(../img/TransparentArrowBkgd.jpg);
+    background-size: auto auto; }
+  #addtocart-button {
+    width: 60% !important; }
+  #addtocart-button .h1 {
+    margin: 0;
+    font-size: 5rem !important; }
+  #addtocart-button p:last-child {
+    margin: 0;
+    font-size: 1.6rem !important; } }
+
+@media only screen and (min-width: 1200px) {
+  .headline h6 {
+    font-size: 3rem !important; }
+  .headline h2 {
+    font-size: 6rem !important; }
+  .headline {
+    padding-bottom: 150px !important; }
+  .parallax-section {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+    padding-left: 30px;
+    background-position: 0 -80px; }
+  .parallax-section h3 * {
+    font-size: 3rem; }
+  .brownbar-section {
+    padding-right: 150px;
+    box-shadow: -150px -40px white inset, 0px 40px white inset; }
+  .brownbar-text {
+    padding-top: 80px !important; }
+  .red-section {
+    background-size: 490px 829px;
+    background-position: top right; }
+  .red-section h2 {
+    font-size: 3rem; }
+  #addtocart-button {
+    width: 50%; } }
+
+@media only screen and (min-width: 1200px) {
+  .headline {
+    padding-bottom: 220px !important; }
+  .parallax-section {
+    padding: 100px 0 100px 80px !important;
+    background-image: linear-gradient(rgba(157, 157, 157, 0.08), rgba(157, 157, 157, 0.08)), url(../img/ParallaxOne_5.jpg);
+    background-position: center bottom;
+    background-attachment: fixed; }
+  .brownbar-section {
+    padding-left: 40px !important;
+    padding-right: 200px !important;
+    box-shadow: -200px -40px white inset, 0px 40px white inset !important; }
+  #addtocart-button {
+    width: 40% !important; }
+  #addtocart-button:hover {
+    box-shadow: 5px 5px 20px white, -5px -5px 20px white, -5px 5px 20px white, 5px -5px 20px white;
+    background-color: #dda26e; } }
