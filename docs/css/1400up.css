@@ -1,0 +1,14 @@
+@media only screen and (min-width: 1200px) {
+  .headline {
+    padding-bottom: 220px !important; }
+  .parallax-section {
+    padding: 100px 0 100px 80px !important;
+    background-image: linear-gradient(rgba(157, 157, 157, 0.08), rgba(157, 157, 157, 0.08)), url(../img/ParallaxOne_5.jpg);
+    background-position: center bottom;
+    background-attachment: fixed; }
+  .brownbar-section {
+    padding-left: 40px;
+    padding-right: 200px;
+    box-shadow: -200px -40px white inset, 0px 40px white inset; }
+  #addtocart-button {
+    width: 40%; } }

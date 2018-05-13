@@ -1,0 +1,10 @@
+@media only screen and (min-width: 576px) {
+  body {
+    font-size: 1.5rem !important; }
+  .headline {
+    background-size: 100% auto !important;
+    background-position: 50% 70% !important; }
+  .headline h2 {
+    font-size: 4rem !important; }
+  .headline h6 {
+    font-size: 1.8rem !important; } }

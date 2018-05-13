@@ -1,0 +1,122 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; }
+
+strong {
+  font-weight: 800 !important; }
+
+.headline {
+  background-image: url(../img/HeadlineImage_1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150% auto;
+  color: white; }
+
+.headline-banner {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #C32430;
+  background: linear-gradient(to right, rgba(196, 154, 108, 0) 0, #D2CAC7 15%, #D2CAC7 85%, rgba(196, 154, 108, 0)); }
+
+.chocoImageBanner {
+  background: linear-gradient(to right, rgba(196, 154, 108, 0) 0, #c39b7c 25%, #c39b7c 75%, rgba(196, 154, 108, 0)); }
+
+.section1 ul {
+  list-style: none; }
+
+.section1 ul li:before {
+  content: "\2714\0020"; }
+
+.parallax-section {
+  position: relative;
+  background-image: url(../img/ParallaxOne_5.jpg);
+  background-position: 75%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  color: white; }
+
+.brownbar-section {
+  background-color: #3d1c0f;
+  box-shadow: -40px 20px white inset, 40px 1px white inset;
+  color: white; }
+
+.red-section {
+  background-color: #A41F25;
+  background-image: url(../img/Gears_15.jpg);
+  background-repeat: no-repeat;
+  background-size: 200px 338px;
+  background-position: 100% -12%;
+  color: white; }
+
+.red-section h2 {
+  color: #FFCD2F; }
+
+.red-section ul {
+  list-style: none; }
+
+.red-section li {
+  padding-bottom: 15px; }
+
+.last-section {
+  background-image: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0) 100%), url(../img/TransparentArrowBkgd.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 1250px 832px; }
+
+.last-section .container:first-child {
+  background-color: rgba(255, 255, 255, 0.68); }
+
+#guaranteeLine {
+  font-size: 1.4rem;
+  font-weight: 800; }
+
+.free-ship-banner {
+  background-color: #495E40;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.free-ship-center {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white; }
+
+.free-ship-text {
+  display: inline-block;
+  line-height: 80%; }
+
+#free {
+  color: #F9D63F; }
+
+#arrow {
+  min-width: 100%;
+  max-width: 100%; }
+
+#addtocart-button {
+  background-color: #E47E25;
+  border-width: medium !important;
+  width: 75%;
+  max-width: 75%;
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+.last-section .container {
+  padding: 0; }
+
+.last-section p {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.last-section a {
+  color: #2BB673;
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+#registered {
+  color: white; }
+
+.shadowed-text {
+  text-shadow: 2px 2px 5px black; }
