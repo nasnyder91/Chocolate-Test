@@ -4,12 +4,20 @@
     margin-bottom: 20px !important;
   }
 
+  .chocoImageBanner{
+    padding-top: 20px;
+  }
+
   .parallax-section{
     background-position: 0 -60px;
   }
 
   .brownbar-section{
-    box-shadow: -80px 40px white inset, 0px 40px white inset;
+    box-shadow: -80px -40px white inset, 0px 40px white inset;
+  }
+
+  .brownbar-text{
+    padding-top: 40px !important;
   }
 
   #delivery-man{
@@ -22,10 +30,16 @@
     background-size: auto auto;
   }
 
+  #addtocart-button{
+    width: 60%;
+  }
+
   #addtocart-button .h1{
+    margin: 0;
     font-size: 5rem !important;
   }
   #addtocart-button p:last-child{
-    font-size: 2rem !important;
+    margin: 0;
+    font-size: 1.6rem !important;
   }
 }

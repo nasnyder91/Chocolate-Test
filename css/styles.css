@@ -99,6 +99,9 @@ strong{
 
 .free-ship-banner{
   background-color: #495E40;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .free-ship-center{
@@ -126,6 +129,15 @@ strong{
   width: 75%;
   max-width: 75%;
   font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.last-section .container{
+  padding: 0;
+}
+
+.last-section p{
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .last-section a{
