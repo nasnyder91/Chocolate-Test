@@ -11,4 +11,21 @@
   .brownbar-section{
     box-shadow: -80px 40px white inset, 0px 40px white inset;
   }
+
+  #delivery-man{
+    float: right;
+    width: 40%;
+  }
+
+  .last-section{
+    background-image: linear-gradient(to bottom, white 50%, rgba(255, 255, 255, 0) 100%),url(../img/TransparentArrowBkgd.jpg);
+    background-size: auto auto;
+  }
+
+  #addtocart-button .h1{
+    font-size: 5rem !important;
+  }
+  #addtocart-button p:last-child{
+    font-size: 2rem !important;
+  }
 }

@@ -98,13 +98,13 @@
 
   <section class="red-section mb-4">
     <div class="container py-5">
-      <h2 class="pb-3">You <span class="text-uppercase">can</span> now<br class="d-sm-none"> switch <br class="d-none d-md-block"> it back on</h2>
+      <h2 class="pb-3">You <span class="text-uppercase">can</span> now<br class="d-sm-none"> switch <br class="d-none d-md-block d-lg-none"> it back on</h2>
       <ul class="pl-0">
-        <li>Even if you’re tired, out of shape,<br> and have poor eating habits.</li>
+        <li>Even if you’re tired, out of shape,<br class="d-lg-none"> and have <br class="d-none d-lg-block"> poor eating habits.</li>
         <li>Your age doesn’t matter, either.</li>
-        <li>And when you do flip your AMPK on,<br class="d-md-none"> you won’t <br class="d-none d-md-block"> believe the results…</li>
-        <li>You can keep your blood sugar healthy and <br class="d-none d-md-block"> stay sensitive to your natural insulin… <br class="d-none d-md-block"> so you can feel steady energy, look thin and trim…</li>
-        <li>...and stop stressing… because you know your <br class="d-none d-md-block"> numbers are in the normal range.</li>
+        <li>And when you do flip your AMPK on,<br class="d-md-none"> you won’t <br class="d-none d-md-block d-lg-none"> believe the results…</li>
+        <li>You can keep your blood sugar healthy and <br class="d-none d-md-block d-lg-none"> stay sensitive to your <br class="d-none d-lg-block"> natural insulin… <br class="d-none d-md-block d-lg-none"> so you can feel steady energy, look thin and trim…</li>
+        <li>...and stop stressing… because you know your <br class="d-none d-md-block d-lg-none"> numbers are in the <br class="d-none d-lg-block"> normal range.</li>
         <li>And the most incredible part is, it’s simpler than you think.</li>
         <li>You can do this right in the comfort of your own home…</li>
       </ul>
@@ -113,7 +113,7 @@
 
   <section class="last-section">
     <div class="container pb-3">
-      <img class="img-fluid" src="./img/BerbinexGuarantee_36.jpg" alt="Berbinex Guarantee">
+      <img class="img-fluid mx-auto d-block" src="./img/BerbinexGuarantee_36.jpg" alt="Berbinex Guarantee">
       <p>Let me repeat that… for any reason at all, simply request a refund and we’ll be happy to oblige.</p>
       <p class="text-center" id="guaranteeLine">And your guarantee <span class="text-uppercase">never</span> expires.</p>
       <p>You can request a refund any time in the future – it could be six months from now… a year… or even two!</p>
@@ -121,7 +121,7 @@
       <p>So let’s do this: Fill out your shipping information on the next page.</p>
       <p>Once you do, we’ll begin packing your shipment of Berbinex C3 and then we’ll rush it your way.</p>
       <p>Just a few short days from now, you’ll receive a plain, brown box from USPS.</p>
-      <img class="img-fluid mx-auto d-block" src="./img/DeliveryMan_37.jpg" alt="Delivery Man">
+      <img id="delivery-man" class="img-fluid mx-auto d-block" src="./img/DeliveryMan_37.jpg" alt="Delivery Man">
       <p>Carefully packed inside will be your initial supply of Berbinex C3.</p>
       <p>I recommend you immediately bring your Berbinex C3 supply into your kitchen, open it up…</p>
       <p>…and have it ready before your very next meal.</p>
@@ -135,23 +135,23 @@
       <p>So, today, through this special offer, we’re giving you free access to our Priority Pass program.</p>
       <p>That means, whenever you’re about to run out of Berbinex C3, we’ll ship you out a fresh supply and simply bill the credit card you use today.</p>
       <p>Not only that, you lock in today’s special low price. And we’ll even pick up the shipping cost.</p>
-      <div class="free-ship-banner py-3">
+      <div class="free-ship-banner py-3 my-3">
         <div class="row">
-          <div class="col-4 offset-2">
+          <div class="col-4 offset-2 col-lg-2 offset-lg-0">
             <img class="img-fluid" src="./img/BerbinexBottleImg.png" alt="Berbinex Bottle">
           </div>
-          <div class="col-4">
+          <div class="col-4 col-lg-2">
             <img class="img-fluid" src="./img/BerbinexBottleImg.png" alt="Berbinex Bottle">
           </div>
-          <div class="col-8 offset-2 free-ship-center text-center text-uppercase py-3">
+          <div class="col-8 offset-2 col-lg-4 offset-lg-0 free-ship-center text-center text-uppercase py-3">
             <span class="free-ship-text my-0">Order now and receive</span><br>
             <span class="free-ship-text" id="free">FREE</span><br>
             <span class="free-ship-text my-0">shipping</span>
           </div>
-          <div class="col-4 offset-2">
+          <div class="col-4 offset-2 col-lg-2 offset-lg-0">
             <img class="img-fluid" src="./img/BerbinexBottleImg.png" alt="Berbinex Bottle">
           </div>
-          <div class="col-4">
+          <div class="col-4 col-lg-2">
             <img class="img-fluid" src="./img/BerbinexBottleImg.png" alt="Berbinex Bottle">
           </div>
         </div>
@@ -174,7 +174,9 @@
       <p>You Can Review Your Order<br class="d-sm-none"> Before Its Final</p>
     </button>
     <a class="d-block text-center my-2" href="#">View the Product Label</a>
-    <p class="text-center" id="registered"><small>CardiaSlim&reg; brand property blend of two plant extracts is a registered trademark of Laila Nutraceuticals and InterHealther Nutraceuticals, Benicia, CA 94510</small></p>
+    <div class="container">
+      <p class="text-center" id="registered"><small>CardiaSlim&reg; brand property blend of two plant extracts is a registered trademark of Laila Nutraceuticals and InterHealther Nutraceuticals, Benicia, CA 94510</small></p>
+    </div>
   </section>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
