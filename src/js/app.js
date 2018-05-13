@@ -1,7 +1,7 @@
 window.addEventListener('resize', resizeFreeShipText);
 document.addEventListener('DOMContentLoaded', () => {
-  animateHeadline();
-  setTimeout(resizeFreeShipText, 100);
+  setTimeout(animateHeadline, 500);
+  setTimeout(resizeFreeShipText, 500);
 });
 
 // Set font size of free ship text
@@ -30,9 +30,7 @@ function animateHeadline(){
   const headline2 = document.querySelector('#headline2');
   const headline3 = document.querySelector('#headline3');
 
-  headline2.style.opacity = 0;
-  headline3.style.opacity = 0;
-
+  headline1.style.opacity = 100;
   slideInDown(headline1, 500, () => {
     headline2.style.opacity = 100;
     slideInLeft(headline2, 500, () => {
