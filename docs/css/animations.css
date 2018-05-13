@@ -158,3 +158,18 @@
   animation-timing-function: ease-out;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
+
+.pulse-text {
+  --duration: 1000ms;
+  -webkit-animation-name: pulse-text;
+  animation-name: pulse-text;
+  animation-duration: var(--duration);
+  animation-iteration-count: infinite; }
+
+@keyframes pulse-text {
+  0% {
+    text-shadow: 0 0 0 white; }
+  50% {
+    text-shadow: 0 0 15px white; }
+  100% {
+    text-shadow: 0 0 0 white; } }
