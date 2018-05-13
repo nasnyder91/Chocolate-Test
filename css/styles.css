@@ -1,4 +1,5 @@
-@import "576up.css" screen and (min-width: 576px);
+/* @import "576up.css" screen and (min-width: 576px);
+@import "768up.css" screen and (min-width: 768px); */
 
 
 body,html{
@@ -20,7 +21,7 @@ strong{
   background-image: url(../img/HeadlineImage_1.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 125% 125%;
+  background-size: 150% auto;
   color: white;
 }
 
@@ -55,7 +56,7 @@ strong{
 
 .brownbar-section{
   background-color: #3d1c0f;
-  box-shadow: -40px 20px white inset, 40px 0 white inset;
+  box-shadow: -40px 20px white inset, 40px 1px white inset;
   color: white;
 }
 
@@ -91,8 +92,9 @@ strong{
   background-color: rgba(255, 255, 255, 0.68);
 }
 
-.last-section strong{
+#guaranteeLine{
   font-size: 1.4rem;
+  font-weight: 800;
 }
 
 .free-ship-banner{

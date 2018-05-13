@@ -7,6 +7,10 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:600,800" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/576up.css">
+  <link rel="stylesheet" href="./css/768up.css">
+  <link rel="stylesheet" href="./css/992up.css">
+
   <title>Agora Chocolate Ad</title>
 </head>
 <body>
@@ -24,23 +28,23 @@
     </div>
     <div class="chocoImageBanner container-fluid">
       <div class="row">
-        <div class="col-8 offset-2">
+        <div class="col-8 offset-2 col-lg-4 offset-lg-0">
           <img class="img-fluid" src="./img/DeliciousImg_2.png" alt="Delicious Chocolate Image">
           <p><strong>Delicious...</strong></p>
         </div>
-        <div class="col-8 offset-2">
+        <div class="col-8 offset-2 col-lg-4 offset-lg-0">
           <img class="img-fluid" src="./img/GooeyImg_3.png" alt="Gooey Chocolate Image">
           <p><strong>Gooey...</strong></p>
         </div>
-        <div class="col-8 offset-2 pb-3">
+        <div class="col-8 offset-2 col-lg-4 offset-lg-0 pb-3">
           <img class="img-fluid" src="./img/ChocolateImg_4.png" alt="Chocolate Image">
           <p><strong>Chocolate...</strong></p>
         </div>
       </div>
     </div>
-    <div class="container py-3">
+    <div class="container py-3 afterChocoBanner">
       <p>According to a recent animal study published in the European Journal of Lipid Science and Technology, the answer is yes!</p>
-      <hr>
+      <hr class="d-lg-none">
     	<p>Here’s how:</p>
     	<p>Scientists have discovered keeping your blood sugar healthy boils down to a simple enzyme in your body.</p>
     	<p>If this enzyme is shut down, that leads to…</p>
@@ -56,20 +60,20 @@
   <section class="parallax-section py-5 mb-4">
     <div class="container row">
       <div class="col-8">
-        <h3 class="shadowed-text"><strong>You can have <br><span class="text-uppercase">perfect</span> blood sugar,<br> every time you check...</strong></h3>
+        <h3 class="shadowed-text"><strong>You can have <br class="d-lg-none"><span class="text-uppercase">perfect</span> blood sugar,<br> every time you check...</strong></h3>
       </div>
       <div class="col-10 mt-3">
-        <p class="shadowed-text">You'll marvel at your steady, low, natural insulin levels...</p>
+        <p class="shadowed-text font-italic">You'll marvel at your steady, low, natural insulin levels...</p>
       </div>
     </div>
   </section>
 
   <section class="brownbar-section">
     <div class="row">
-      <div class="col-12 col-sm-6 offset-sm-3">
+      <div class="col-12 col-sm-6 offset-sm-3 col-lg-4 offset-lg-0 align-items-center">
         <img class="img-fluid" src="./img/DoctorAndLady_6.png" alt="Doctor and Lady">
       </div>
-      <div class="col-8 offset-2">
+      <div class="col-8 offset-2 col-lg-7 offset-lg-0 pt-5">
         <div class="row">
           <div class="col-12">
             <p>You might even get a thumbs up from your doctor, after confirming your HbA1c is the best it’s been in years…</p>
@@ -87,20 +91,20 @@
 
   	<p>Simple… it turns out you can activate this enzyme by eating chocolate! Seriously!</p>
 
-  	<p>If you’re skeptical, I completely understand.<br><strong>And why wouldn’t you be?</strong></p>
+  	<p>If you’re skeptical, I completely understand.<br class="d-lg-none"><strong>  And why wouldn’t you be?</strong></p>
 
   	<p>After all, if you’re concerned about your blood sugar… everyone out there is telling you something different…</p>
   </section>
 
   <section class="red-section mb-4">
     <div class="container py-5">
-      <h2 class="pb-3">You <span class="text-uppercase">can</span> now<br class="d-sm-none"> switch it back on</h2>
+      <h2 class="pb-3">You <span class="text-uppercase">can</span> now<br class="d-sm-none"> switch <br class="d-none d-md-block"> it back on</h2>
       <ul class="pl-0">
         <li>Even if you’re tired, out of shape,<br> and have poor eating habits.</li>
         <li>Your age doesn’t matter, either.</li>
-        <li>And when you do flip your AMPK on,<br> you won’t believe the results…</li>
-        <li>You can keep your blood sugar healthy and stay sensitive to your natural insulin… so you can feel steady energy, look thin and trim…</li>
-        <li>...and stop stressing… because you know your numbers are in the normal range.</li>
+        <li>And when you do flip your AMPK on,<br class="d-md-none"> you won’t <br class="d-none d-md-block"> believe the results…</li>
+        <li>You can keep your blood sugar healthy and <br class="d-none d-md-block"> stay sensitive to your natural insulin… <br class="d-none d-md-block"> so you can feel steady energy, look thin and trim…</li>
+        <li>...and stop stressing… because you know your <br class="d-none d-md-block"> numbers are in the normal range.</li>
         <li>And the most incredible part is, it’s simpler than you think.</li>
         <li>You can do this right in the comfort of your own home…</li>
       </ul>
@@ -111,7 +115,7 @@
     <div class="container pb-3">
       <img class="img-fluid" src="./img/BerbinexGuarantee_36.jpg" alt="Berbinex Guarantee">
       <p>Let me repeat that… for any reason at all, simply request a refund and we’ll be happy to oblige.</p>
-      <p class="text-center"><strong>And your guarantee <span class="text-uppercase">never</span> expires.</strong></p>
+      <p class="text-center" id="guaranteeLine">And your guarantee <span class="text-uppercase">never</span> expires.</p>
       <p>You can request a refund any time in the future – it could be six months from now… a year… or even two!</p>
       <p>This way, there’s no pressure… and no risk… when you try Berbinex C3 today.</p>
       <p>So let’s do this: Fill out your shipping information on the next page.</p>

@@ -1,0 +1,14 @@
+@media only screen and (min-width: 992px){
+  .section1 p:first-child{
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+  }
+
+  .parallax-section{
+    background-position: 0 -60px;
+  }
+
+  .brownbar-section{
+    box-shadow: -80px 40px white inset, 0px 40px white inset;
+  }
+}
