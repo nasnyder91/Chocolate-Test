@@ -30,4 +30,17 @@
   .brownbar-text{
     padding-top: 80px !important;
   }
+
+  .red-section{
+    background-size: 490px 829px;
+    background-position: top right;
+  }
+
+  .red-section h2{
+    font-size: 3rem;
+  }
+
+  #addtocart-button{
+    width: 50%;
+  }
 }
