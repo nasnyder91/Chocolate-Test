@@ -12,7 +12,7 @@
   }
 
   .brownbar-section{
-    box-shadow: -80px 60px white inset, 80px 1px white inset;
+    box-shadow: -80px 60px white inset, 80px 1px white inset !important;
   }
 
   .between-brown-and-red *{
@@ -20,11 +20,11 @@
   }
 
   .red-section{
-    background-size: auto auto;
+    background-size: auto auto !important;
   }
 
   .red-section h2{
-    font-size: 2.3rem;
+    font-size: 2.3rem !important;
   }
 
   #guaranteeLine{

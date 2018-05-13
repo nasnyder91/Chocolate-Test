@@ -3,11 +3,11 @@
     margin-top: 20px;
     margin-bottom: 20px !important; }
   .chocoImageBanner {
-    padding-top: 20px; }
+    padding-top: 20px !important; }
   .parallax-section {
-    background-position: 0 -60px; }
+    background-position: 0 -60px !important; }
   .brownbar-section {
-    box-shadow: -80px -40px white inset, 0px 40px white inset; }
+    box-shadow: -80px -40px white inset, 0px 40px white inset !important; }
   .brownbar-text {
     padding-top: 40px !important; }
   #delivery-man {
@@ -17,7 +17,7 @@
     background-image: linear-gradient(to bottom, white 50%, rgba(255, 255, 255, 0) 100%), url(../img/TransparentArrowBkgd.jpg);
     background-size: auto auto; }
   #addtocart-button {
-    width: 60%; }
+    width: 60% !important; }
   #addtocart-button .h1 {
     margin: 0;
     font-size: 5rem !important; }

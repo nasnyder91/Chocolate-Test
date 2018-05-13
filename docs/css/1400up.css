@@ -7,8 +7,11 @@
     background-position: center bottom;
     background-attachment: fixed; }
   .brownbar-section {
-    padding-left: 40px;
-    padding-right: 200px;
-    box-shadow: -200px -40px white inset, 0px 40px white inset; }
+    padding-left: 40px !important;
+    padding-right: 200px !important;
+    box-shadow: -200px -40px white inset, 0px 40px white inset !important; }
   #addtocart-button {
-    width: 40%; } }
+    width: 40% !important; }
+  #addtocart-button:hover {
+    box-shadow: 10px 10px 20px white, -10px -10px 20px white, -10px 10px 20px white, 10px -10px 20px white;
+    background-color: #dda26e; } }
